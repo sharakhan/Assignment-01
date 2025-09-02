@@ -6,7 +6,7 @@ body {
 header {
     background-image: url('../Assets/Hero-bg.png');
     padding: 0 150px;
-    height: 700px;
+    height: 698px;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav {
     box-shadow: #8987A1 0px 0px 10px;
 }
 
-.hero {
+.banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,10 +50,46 @@ nav {
     flex-wrap: wrap;
 }
 
-.hero-title {
+.banner-title {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 65px;
     text-align: center;
 }
+
+main {
+    margin: 0 98px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    height: 328px;
+    
+}
+
+.action-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+   
+}
+
+.action-text {
+    padding-right: 100px;
+     width: 517px;
+}
+
+.action-text > p {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #8D8E98;
+}
+.action-image {
+    border-radius: 50px;
+}
+
+
 
