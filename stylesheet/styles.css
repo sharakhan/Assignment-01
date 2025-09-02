@@ -215,6 +215,7 @@ main {
 .contact-form {
     display: flex;
     flex-direction: column;
+    color: #000000;
     width: 50%;
 }
 
@@ -240,6 +241,36 @@ label {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: normal;
+}
+footer {
+    background-color: #fff;
+    padding: 50px 150px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.footer-logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    color: #4e47ff;
+    font-weight: 900;
+}
+.footer-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color:#8987a1;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    font-family: 'Inter', sans-serif;
+    color: #8987a1;
+    text-decoration: none;
 }
 
 
