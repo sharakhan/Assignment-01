@@ -59,6 +59,7 @@ nav {
 
 main {
     margin: 0 98px;
+    background-color:#f5f8ff;
 }
 
 .action-section {
@@ -124,5 +125,50 @@ main {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     color: #00000080;
+}
+.feedback-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 130px;
+    color: #252432;
+}
+
+.feedbacks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback {
+    background-color: #FAFCFF;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.star {
+    margin-right: 5px;
+}
+.feedback h3 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.feedback-user {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #8D8E98;
+    flex-wrap: wrap;
+}
+.margin-right {
+    margin-right: 20px;
 }
 
